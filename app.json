@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/home/home",
+    "pages/pics/videos/videos",
+    "pages/chatrob/chatrob",
+    "pages/scal/scal",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/erwei/erwei",
+    "pages/map/map",
+    "pages/calendar/calendar",
+    "pages/draw/draw",
+    "pages/time/time",
+    "pages/checkpy/checkpy",
+    "pages/mqtt/mqtt",
+    "pages/mqtt/client/client",
+    "pages/weather/future/future",
+    "pages/weather/life/life",
+    "pages/weather/main/main",
+    "pages/password/password",
+    "pages/pics/pics"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "WeChat",
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "小工具",
+        "iconPath": "images/main1.png",
+        "selectedIconPath": "/images/main2.png"
+      },
+      {
+        "pagePath": "pages/weather/life/life",
+        "text": "生活",
+        "iconPath": "images/lifeno.png",
+        "selectedIconPath": "/images/lifepressed.png"
+      },
+      {
+        "pagePath": "pages/mqtt/mqtt",
+        "text": "MQTT",
+        "iconPath": "images/chatno.png",
+        "selectedIconPath": "images/chatpressed.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "images/meno.png",
+        "selectedIconPath": "images/mepressed.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

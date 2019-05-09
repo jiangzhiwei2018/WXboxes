@@ -1,0 +1,29 @@
+<view class='all'>
+<view class="retailStore">
+   <view class="cnaps  borderBottom">
+    <view class='borderBottom1'>经度{{longitude}}</view>
+    <view class='borderBottom1'>纬度{{latitude}}</view>
+    <button size='mini' bindtap='flashtap' type="primary">重新定位</button>
+  </view>
+   <view class='m-bbt'  >{{address}}</view>
+</view>
+<view class="retailStore">
+<form bindsubmit="formSubmit" class='submit'>
+    <!--地址输入框,例：39.984060,116.307520-->
+    <view style='display:flex'>
+   <label> 纬度:</label><input name="latitude" class='latitude' placeholder="输入纬度<=90"></input>
+   </view>
+   <view style='display:flex'>
+    <label>经度:</label><input  name="longitude" class='longitude'  placeholder="输入经度"></input>
+    </view>
+    <!--提交表单按钮-->
+    <button form-type="submit" type="primary"   class='btnsub' size='mini'>经纬度解析</button>
+</form>
+</view>
+</view>
+<!--地图容器-->
+<!--longitude及latitude为设置为调转到指定坐标位置，默认不显示-->
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" scale="13" show-location style="width: 100%; height: 90%;">
+</map>
+<!--form表单-->
+

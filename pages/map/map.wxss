@@ -1,0 +1,58 @@
+.cnaps{
+   display: flex;
+   flex-wrap: wrap;/*换行*/
+   margin: 10rpx;
+}
+.m-bbt{
+  color: red;
+  margin-top: 10rpx;
+   background:-moz-linear-gradient(top,#cccccc,#fff);/*Mozilla*/
+  background:-webkit-gradient(linear,0 50%,100% 50%,from(#cccccc),to(#fff));/*Old gradient for webkit*/
+  background:-webkit-linear-gradient(top,#cccccc,#fff);/*new gradient for Webkit*/
+  background:-o-linear-gradient(top,#cccccc,#fff); /*Opera11*/
+
+}
+.all{
+  background-color: #cccccc;
+  background:-moz-linear-gradient(top,#fff,#f2f2f2);/*Mozilla*/
+  background:-webkit-gradient(linear,0 50%,100% 50%,from(#fff),to(#f2f2f2));/*Old gradient for webkit*/
+  background:-webkit-linear-gradient(top,#fff,#f2f2f2);/*new gradient for Webkit*/
+  background:-o-linear-gradient(top,#fff,#f2f2f2); /*Opera11*/
+}
+page {
+  height: 100%;
+}
+.view {
+  width: 100%;
+  height: 100%;
+}
+input {
+  display:block;
+  height:1.4rem;
+  text-overflow:clip;
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:UICTFontTextStyleBody;
+  min-height:1.4rem;
+   margin-left:10px; 
+}
+
+map {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+}
+.borderBottom1{
+  color: red;
+   background:-moz-linear-gradient(top,#cccccc,#fff);/*Mozilla*/
+  background:-webkit-gradient(linear,0 50%,100% 50%,from(#cccccc),to(#fff));/*Old gradient for webkit*/
+  background:-webkit-linear-gradient(top,#cccccc,#fff);/*new gradient for Webkit*/
+  background:-o-linear-gradient(top,#cccccc,#fff); /*Opera11*/
+}
+button{
+   width: 100%; 
+ border-radius: 100px;
+}
+.btnsub{
+  width: 100%; 
+}
